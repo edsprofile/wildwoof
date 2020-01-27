@@ -15,6 +15,6 @@ var port = process.env.PORT;
 if(!process.env.PORT){
     port = 3000;
 }
-app.listen(3000, function(){
+app.listen(port, function(){
     console.log("WildWoof app started!!!");
 });
