@@ -11,6 +11,10 @@ app.get("/dogs", function(req, res){
     res.render("index");
 });
 
+app.get("/dogs/new", function(req, res){
+    res.render("new");
+})
+
 var port = process.env.PORT;
 if(!process.env.PORT){
     port = 3000;
