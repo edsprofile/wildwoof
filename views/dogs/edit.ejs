@@ -1,0 +1,34 @@
+<%- include("partials/header"); %>
+<div class="container">
+    <h1 class="text-center display-4">Enter your dog's info</h1>
+    <form action="/dogs/<%= dog._id %>?_method=PUT" method="post">
+        <div class="form-group">
+            <label for="owner">Owner name</label>
+            <input class="form-control" name="dog[owner]" type="text" value="<%= dog.owner %>" />
+        </div>
+        <div class="form-group">
+            <label for="image">Dog image</label>
+            <input class="form-control" name="dog[image]" type="text" value="<%= dog.image %>"/>
+        </div>
+        <div class="form-group">
+            <label for="dog">Dog name</label>
+            <input class="form-control" name="dog[dog]" type="text" value="<%= dog.dog%>" />
+        </div>
+        <div class="form-group">
+            <label for="dog">Dog age</label>
+            <input class="form-control" name="dog[age]" type="number" value="<%= dog.age %>" />
+        </div>
+        <div class="form-group">
+            <label for="dog">Dog breed</label>
+            <input class="form-control" name="dog[breed]" type="text" value="<%= dog.breed %>" />
+        </div>
+        <div class="form-group">
+            <label for="dog">Dog description</label>
+            <input class="form-control" name="dog[description]" type="text" value="<%= dog.description %>" />
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+<%- include("partials/footer"); %>

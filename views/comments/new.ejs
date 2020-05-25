@@ -1,0 +1,12 @@
+<%- include("../partials/header"); %>
+<div class="container">
+    <h1 class="display-4 text-center">New Comment</h1>
+    <form action="/dogs/<%= dog._id %>/comments/" method="post">
+        <div class="form-group">
+            <label for="text">Comment</label>
+            <input class="form-control" name="comment[text]" type="text" placeholder="Comment" />
+        </div>
+        <button class="btn btn-info" type="submit">Submit</button>
+    </form>
+</div>
+<%- include("../partials/footer"); %>

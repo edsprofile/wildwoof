@@ -1,9 +1,26 @@
-<%- include("partials/header"); %>
-<div class="container">
-    <div class="jumbotron text-center">
-        <h1 class="display-4">Wild Woof</h1>
-        <p class="lead">Finally, a platform to just share your dog with other people.</p>
-        <a class="btn btn-info" href="/dogs">View All Dogs</a>
-    </div>
+<%- include("partials/header") %>
+<div id="landing" class="jumbotron jumbotron-fluid text-center">
+    <h1 class="display-4">Wild Woof</h1>
+    <p class="lead">Finally, a platform to just share your dog with other people.</p>
+    <a class="btn btn-info" href="/dogs">View All Dogs</a>
 </div>
-<%- include("partials/footer"); %>
+
+<div class="container d-flex justify-content-around">
+    <div class="flex-item">
+        <i class="fas fa-dog pb-2 text-info main-icons"></i>
+        <h4>For dogs by dogs</h4>
+        <p>This is a platform for dogs by dogs who just want to meet other dogs</p>
+    </div>
+    <div class="flex-item">
+        <i class="fas fa-bone pb-2 text-info main-icons"></i>
+        <h4>New! dog bones</h4>
+        <p>Throw dog bones to the dogs you like</p>
+    </div>
+    <div class="flex-item">
+        <i class="fas fa-cat pb-2 text-info main-icons"></i>
+        <h4>No cats allowed</h4>
+        <p>Our platform has a user screening service that detect 99.99% of cats that try to sneak onto our platform </p>
+    </div>
+
+</div>
+<%- include("partials/footer") %>
