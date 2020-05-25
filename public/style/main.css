@@ -1,0 +1,20 @@
+#landing{
+    background-image: url("../imgs/grass.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+
+.main-icons{
+    font-size: 4.5rem;
+}
+
+.flex-item{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.main-icons{
+    text-align: center;
+}
