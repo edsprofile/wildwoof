@@ -35,7 +35,6 @@ router.post("/", function(req, res){
                     comment.save();
                     foundDog.comments.push(comment);
                     foundDog.save()
-                    console.log(comment);
                     res.redirect("/dogs/" + foundDog._id);
                 }
             });
