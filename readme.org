@@ -1,2 +1,2 @@
 * README
-** Social platform for dogs a full example of RESTful routes. Other goodies include being able to create, edit and delete comments. A like button where users can see who has "thrown a bone" to the dog.
+Social platform for dogs a full example of RESTful routes. Other goodies include being able to create, edit and delete comments. A like button where users can see who has "thrown a bone" to the dog.
